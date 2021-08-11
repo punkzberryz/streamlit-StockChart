@@ -50,7 +50,7 @@ def plotTable(type='Annually'):
         ###### Number shown in millions
     '''.format(ss.name, ss.business_info, ss.marketcap))
     st.table(ss.table)
-    st.button('Export Table', on_click=exportTable, args=(ss.ticker, ss.table, type))
+    # st.button('Export Table', on_click=exportTable, args=(ss.ticker, ss.table, type))
 
 
 st.title('Stock Financial')
